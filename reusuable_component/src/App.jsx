@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <h1>
-        Reusable Components
+        Components
       </h1>
       <Card1 
         title="Course 1"

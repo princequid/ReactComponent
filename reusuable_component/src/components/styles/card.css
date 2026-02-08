@@ -12,8 +12,17 @@ body {
   border-radius: 8px;
   margin-bottom: 20px;
   background-color: rgb(65, 115, 207);
+  box-shadow: rgb(102, 140, 193) 2px 2px 3px 3px;
 }
 
 button {
   margin-top: 10px;
+}
+button:hover {
+  background-color: #e1d1d1;
+  color: #1d0245;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  transform: translateX(20px) rotate(8deg) scale(1.2);
+
 }
